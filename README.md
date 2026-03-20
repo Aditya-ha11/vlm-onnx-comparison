@@ -15,14 +15,10 @@ Speedup: ~2–3×
 
 ## ⚡ Results
 
-### PyTorch (Accurate)
-![PyTorch Output](https://github.com/Aditya-ha11/vlm-onnx-comparison/blob/main/Screenshot%202026-03-20%20131722.png)
 
-### ONNX (Fast)
-![ONNX Output](demo2.png)
+![PyTorch Output Vs ONNX](https://github.com/Aditya-ha11/vlm-onnx-comparison/blob/main/Screenshot%202026-03-20%20131722.png)
 
-### Comparison
-![Comparison](demo3.png)
+![PyTorch Output Vs ONNX](https://github.com/Aditya-ha11/vlm-onnx-comparison/blob/main/Screenshot%202026-03-20%20131746.png)
 
 ## 🧠 Key Insight
 ONNX improves speed but lacks autoregressive decoding, leading to lower-quality captions.
