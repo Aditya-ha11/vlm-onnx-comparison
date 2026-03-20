@@ -1,0 +1,6 @@
+torch
+transformers
+onnxruntime
+gradio
+pillow
+numpy
