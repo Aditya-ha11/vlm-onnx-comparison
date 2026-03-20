@@ -21,3 +21,10 @@ ONNX improves speed but lacks autoregressive decoding, leading to lower-quality 
 ```bash
 pip install -r requirements.txt
 python app.py
+
+## ⚠️ Note on ONNX Output
+
+ONNX inference uses simplified greedy decoding instead of autoregressive generation,
+which leads to faster inference but lower-quality captions.
+
+This demonstrates the trade-off between performance and accuracy.
