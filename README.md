@@ -13,6 +13,17 @@ This project compares image captioning performance using:
 
 Speedup: ~2–3×
 
+## ⚡ Results
+
+### PyTorch (Accurate)
+![PyTorch Output](demo1.png)
+
+### ONNX (Fast)
+![ONNX Output](demo2.png)
+
+### Comparison
+![Comparison](demo3.png)
+
 ## 🧠 Key Insight
 ONNX improves speed but lacks autoregressive decoding, leading to lower-quality captions.
 
@@ -28,3 +39,4 @@ ONNX inference uses simplified greedy decoding instead of autoregressive generat
 which leads to faster inference but lower-quality captions.
 
 This demonstrates the trade-off between performance and accuracy.
+
