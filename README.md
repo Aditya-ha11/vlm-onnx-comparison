@@ -16,7 +16,7 @@ Speedup: ~2–3×
 ## ⚡ Results
 
 ### PyTorch (Accurate)
-![PyTorch Output](demo1.png)
+![PyTorch Output](https://github.com/Aditya-ha11/vlm-onnx-comparison/blob/main/Screenshot%202026-03-20%20131722.png)
 
 ### ONNX (Fast)
 ![ONNX Output](demo2.png)
